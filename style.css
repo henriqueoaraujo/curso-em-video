@@ -31,7 +31,7 @@ body {
 }
 
 header{
-    background-color: var(--cor4);
+    background-image: linear-gradient(180deg, var(--cor2), var(--cor5));
     height: 9em;
 }
 
@@ -39,23 +39,30 @@ header > h1{
     color: white;
     font-family:var(--fonte-destaque);
     text-align: center; 
-    padding-top: .5em; 
+    padding: .5em; 
+    margin-bottom: .3em;
 }
 
 header > p {
     color: white;
     max-width: 25em;
+    margin: auto;
+    text-align: center;
 }
 
 nav {
     background-color: var(--cor5);
+    height: 2em;
+    color: white;
+    text-decoration: none;
 }
 
 main {
     background-color: white;
     max-width: 55em;
     margin: auto;
-    box-shadow: 0px 0px 10px 10px #3fa86666;
+    margin-bottom: 3em;
+    box-shadow: 0px 10px 10px 10px #3fa86666;
 }
 
 img {
@@ -70,8 +77,8 @@ main > h1 {
 article > h1 {
     font-family: var(--font-android);
     padding: 1em .5em .5em 1em ;
-    font-size: 1.6em;
-    color: var(--cor4);
+    font-size: 2em;
+    color: var(--cor5);
 }
 
 article > h2 {
@@ -81,9 +88,19 @@ article > h2 {
 }
 
 article > p {
-    padding: 0px 1.5em 0px 1.5em;
+    padding: 0px 1.5em 2px 1.5em;
 }
 
+img {
+    align-items: center;
+    padding: 2em;
+}
+
+.video {
+    align-items: center;
+    padding: 2.5em;
+    background-color: var(--cor4);
+}
 
 footer {
     background-color: var(--cor5);
