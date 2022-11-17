@@ -48,8 +48,8 @@ header > h1{
     color: white;
     font-family:var(--fonte-destaque);
     text-align: center; 
-    padding: .5em; 
-    margin-bottom: .1em;
+    padding-top: .5em;
+    padding-bottom: .3em;
     font-size: 3em;
 }
 
@@ -134,7 +134,8 @@ img {
 .video {
     background-color: var(--cor4);
     position: relative;
-    height: 450px;
+    padding: 20px;
+    padding-bottom: 50%;
 }
 
 .video > iframe {
